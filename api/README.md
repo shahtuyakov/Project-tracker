@@ -26,38 +26,36 @@ After logging in, users go to a projects page.
 
 ### Create a new project
 
-Users can create a new project by clicking a plus button on top right. Users must include title, date created, status, due date and description. After clicking a create button, they can see a new project on a projcts page.  
-![Create a new project](./assets/creatNew.gif)
+Users can create a new project by clicking a plus button on top right. Users must include title, date created, status, due date and description. After clicking a create button, they can see a new project on a projcts page. 
 
 ### Edit a project
 
 Users can edit a project by clicking three dots on top right in each project card. Users can edit information that they want to update and click an update button to complete editting.
-![Edit a project](./assets/editProject.gif)
 
 ### Manage tasks
 
 In a tasks page, users can see and manage tasks in each project except for completed projects. Users can manage tasks by clicking a checkbox besides each task to check or uncheck.
-![Manage tasks](./assets/manageTasks.gif)
+
 
 ### Drag & Drop a project card
 
 Users can drag and drop a project card to change the project's status.
-![Drag & Drop](./assets/draganddrop.gif)
+
 
 ### Check time manage
 
 In a time manage page, users can check each project's due date and how many tasks are left with a timeline calendar and a table. Users can sort projects by due date and also can check the detail of projects. And a fire icon notifies users the project either approaches to the due date or already passes the due date.
-![Check time manage](./assets/checkTimemanage.gif)
+
 
 ### **_Bonus - Dark Mode!_**
 
 If you like a dark mode, you can try it by toggling a top left button!
-![Darkmode](./assets/darkmode.gif)
+
 
 ### To log out
 
 Users can log out by clicking a logout button on top right.  
-![Darkmode](./assets/logout.gif)
+
 
 ## Built With
 
