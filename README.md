@@ -118,7 +118,4 @@ Install npm.
   npm run test
   ``` -->
 
-## Contact
-
-Yumie Tsuzuki - yumie.tsuzuki@gmail.com
 
