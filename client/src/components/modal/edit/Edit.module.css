@@ -1,0 +1,76 @@
+.btns {
+  flex: 0 1 4.5rem;
+
+  display: flex;
+  align-items: flex-end;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .btns {
+    flex: 0 1 7rem;
+  }
+}
+
+.update {
+  flex: 1;
+  height: 100%;
+  border: none;
+  font-size: 1.4rem;
+  padding: 1.5rem 1.5rem;
+  background-color: #243242;
+  color: #fff;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .update {
+    font-size: 2.2rem;
+  }
+}
+
+.update:hover {
+  background-color: #293849;
+}
+
+.update-dark {
+  background-color: #457c74;
+}
+
+.update-dark:hover {
+  background-color: #5b8e86;
+}
+
+.delete {
+  flex: 0 1 3rem;
+  background: none;
+  border: none;
+  font-size: 3rem;
+  color: #ff2b1d;
+  margin-left: 0.3rem;
+  margin-right: -0.3rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .delete {
+    font-size: 4.7rem;
+  }
+}
+
+.delete:hover {
+  color: #ff4335;
+}
+
+.delete-dark {
+  color: #d64510;
+}
+
+.delete-dark:hover {
+  color: #d8653c;
+}

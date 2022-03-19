@@ -1,0 +1,53 @@
+.list {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .list {
+    margin-bottom: 1rem;
+  }
+}
+
+.btn {
+  flex: 0 1 2rem;
+  font-size: 1.4rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 1rem;
+  color: inherit;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .btn {
+    font-size: 2.4rem;
+  }
+}
+
+.icon {
+  transition: all 0.2s;
+}
+
+.icon:hover {
+  color: #ff2b1d;
+}
+
+.text {
+  flex: 1;
+  font-size: 1.3rem;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .text {
+    font-size: 2.2rem;
+  }
+}

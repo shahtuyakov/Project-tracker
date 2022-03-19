@@ -1,0 +1,147 @@
+.sidebar {
+  grid-row: 1 / -1;
+  background-color: #fff;
+  border-radius: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-dark {
+  background-color: #0c0d14;
+}
+
+.logo {
+  padding: 1.5rem 3.5rem 2rem 3.5rem;
+  color: #df4b14;
+  font-size: 2.2rem;
+
+  font-weight: 700;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .logo {
+    padding: 3rem 4.6rem 3.5rem 4.6rem;
+    font-size: 3.7rem;
+  }
+}
+
+/* 1200px */
+@media only screen and (max-width: 75em) {
+  .logo {
+    font-size: 2rem;
+    padding: 1.5rem 2.5rem 2rem 2.5rem;
+  }
+}
+
+.logo-dark {
+  color: #ccc;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.link,
+.link-dark {
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  height: 4.5rem;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  position: relative;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .link,
+  .link-dark {
+    padding: 2rem 2.2rem;
+    height: 8rem;
+    font-size: 2.1rem;
+  }
+}
+
+/* 1200px */
+@media only screen and (max-width: 75em) {
+  .link,
+  .link-dark {
+    font-size: 1.2rem;
+  }
+}
+
+.link::after,
+.link-dark::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 3px;
+  transform: scaleY(0);
+  transition: all 0.3s;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .link::after,
+  .link-dark::after {
+    width: 7px;
+  }
+}
+
+.link::after {
+  background-color: #274c4b;
+}
+
+.link-dark::after {
+  background-color: #d55222;
+}
+
+.link:hover {
+  color: #274c4b;
+  background-color: #adc8c818;
+}
+
+.link-dark:hover {
+  color: #d55222;
+  background-color: #d5522211;
+}
+
+.link:hover::after,
+.link-dark:hover::after {
+  transform: scaleY(1);
+}
+
+.link.selected {
+  color: #274c4b;
+  background-color: #adc8c818;
+}
+
+.link-dark.selected {
+  color: #d55222;
+  background-color: #d5522211;
+}
+
+.link.selected::after,
+.link-dark.selected::after {
+  transform: scaleY(1);
+}
+
+.icon {
+  margin-right: 1rem;
+  font-size: 1.6rem;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .icon {
+    font-size: 2.5rem;
+  }
+}

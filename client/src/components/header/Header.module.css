@@ -1,0 +1,160 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  padding-left: 3rem;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .header {
+    padding-left: 4rem;
+  }
+}
+
+.toggle {
+  margin-right: auto;
+}
+
+.userinfo {
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .userinfo {
+    margin-right: 1.5rem;
+  }
+}
+
+.userinfo-dark {
+  color: #ccc;
+}
+
+.usericon {
+  font-size: 2.2rem;
+  margin-right: 0.5rem;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .usericon {
+    font-size: 3rem;
+  }
+}
+
+.userinfo > p {
+  font-size: 1.4rem;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .userinfo > p {
+    font-size: 2.2rem;
+  }
+}
+
+.others {
+  display: flex;
+  align-items: center;
+}
+
+.logout {
+  border: none;
+  background: none;
+  margin-right: 0.7rem;
+  font-size: 1.2rem;
+  font-weight: 100;
+  background-color: transparent;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logout > p {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  color: transparent;
+  transition: all 0.3s;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .logout > p {
+    font-size: 1.5rem;
+  }
+}
+
+.logout:hover > p {
+  color: #101d2c;
+}
+
+.logout-dark:hover > p {
+  color: #ccc;
+}
+
+.logouticon {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .logouticon {
+    font-size: 3.3rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.logouticon-dark {
+  fill: #ccc;
+}
+
+.create {
+  border: none;
+  background-color: #df4b14;
+  border-radius: 3px;
+  height: 2.5rem;
+  width: 2.5rem;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .create {
+    height: 3rem;
+    width: 3rem;
+  }
+}
+
+.create-dark {
+  background-color: #d55222;
+}
+
+.create:hover {
+  background-color: #df5d2f;
+}
+
+.createicon {
+  height: 2rem;
+  width: 2rem;
+  fill: #fff;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .createicon {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+}

@@ -1,0 +1,19 @@
+.tasks {
+  margin-top: 1rem;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8rem;
+  font-size: 1.4rem;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .message {
+    font-size: 2.5rem;
+  }
+}

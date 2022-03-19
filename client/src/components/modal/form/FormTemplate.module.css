@@ -1,0 +1,292 @@
+.form {
+  height: 100%;
+  width: 100%;
+
+  display: grid;
+  grid-template-rows: 5rem 1fr;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .form {
+    grid-template-rows: 9rem 1fr;
+  }
+}
+
+.form-title {
+  font-size: 3rem;
+  padding-bottom: 1.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .form-title {
+    font-size: 4rem;
+    padding-bottom: 2.5rem;
+  }
+}
+
+.form-template {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.title {
+  flex: 0 1 4.5rem;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .title {
+    flex: 0 1 7rem;
+  }
+}
+
+.date,
+.status,
+.duedate {
+  flex: 0 1 3rem;
+  width: 80%;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .date,
+  .status,
+  .duedate {
+    flex: 0 1 5rem;
+  }
+}
+
+/* 800px */
+@media only screen and (max-width: 50em) {
+  .date,
+  .status,
+  .duedate {
+    width: 100%;
+  }
+}
+
+/* 600px */
+@media only screen and (max-width: 37.5em) {
+  .date,
+  .status,
+  .duedate {
+    flex: 0 1 6.5rem;
+  }
+}
+
+.date-form,
+.status-form,
+.duedate-form {
+  display: flex;
+  align-items: center;
+}
+
+/* 600px */
+@media only screen and (max-width: 37.5em) {
+  .date-form,
+  .status-form,
+  .duedate-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.input {
+  width: 100%;
+  border: none;
+  font-size: 1.5rem;
+  padding: 0.8rem 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .input {
+    font-size: 2.7rem;
+    padding: 1rem 1.1rem;
+  }
+}
+
+/* 600px */
+@media only screen and (max-width: 37.5em) {
+  .input {
+    font-size: 2rem;
+    padding: 0.5rem 0.8rem;
+  }
+}
+
+.input-dark,
+.select-dark {
+  background-color: #0c0d14;
+  color: inherit;
+}
+
+.input:focus,
+.select:focus {
+  outline: none;
+}
+
+.input:hover,
+.select:hover {
+  background-color: #f6f5f4;
+}
+
+.input-dark:hover,
+.select-dark:hover {
+  background-color: #334148;
+}
+
+.input::placeholder {
+  color: #d5c6b9;
+}
+
+.input-dark::placeholder {
+  color: #ccc;
+}
+
+.label {
+  flex: 0 1 12rem;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .label {
+    flex: 0 1 18rem;
+    font-size: 2rem;
+  }
+}
+
+/* 600px */
+@media only screen and (max-width: 37.5em) {
+  .label {
+    flex: 0 1 3rem;
+    font-size: 1.5rem;
+  }
+}
+
+.icon {
+  margin-right: 0.5rem;
+  font-size: 1.3rem;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .icon {
+    font-size: 2rem;
+  }
+}
+
+.selectgroup {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.select {
+  font-size: 1.2rem;
+  padding: 0.5rem 0.7rem;
+  border: none;
+  cursor: pointer;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .select {
+    font-size: 1.9rem;
+    padding: 0.7rem 0.9rem;
+  }
+}
+
+/* 600px */
+@media only screen and (max-width: 37.5em) {
+  .select {
+    font-size: 1.5rem;
+  }
+}
+
+.select:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.description {
+  flex: 0 1 9.6rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .description {
+    flex: 0 1 22rem;
+  }
+}
+
+.description > h2 {
+  flex: 0 1 2.6rem;
+
+  font-size: 1.7rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .description > h2 {
+    flex: 0 1 4.2rem;
+    font-size: 2.5rem;
+  }
+}
+
+.textarea {
+  flex: 1;
+
+  width: 100%;
+  font-size: 1.3rem;
+  border-color: #b8b8b8;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .textarea {
+    font-size: 1.9rem;
+  }
+}
+
+.textarea-dark {
+  background-color: #0c0d14;
+  border-color: #b4b5b9;
+  color: inherit;
+}
+
+.textarea:focus {
+  outline: none;
+}
+
+.error {
+  font-size: 1.1rem;
+  color: #ff2b1d;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .error {
+    font-size: 1.9rem;
+  }
+}

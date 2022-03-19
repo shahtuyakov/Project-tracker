@@ -1,0 +1,42 @@
+.projects {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* 800px */
+@media only screen and (max-width: 50em) {
+  .projects {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+
+    gap: 0.5rem;
+  }
+}
+
+/* 600px */
+@media only screen and (max-width: 37.5em) {
+  .projects {
+    gap: 1rem;
+  }
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8rem;
+}
+
+.message > p {
+  font-size: 1.4rem;
+}
+
+/* 2000px */
+@media only screen and (min-width: 125em) {
+  .message > p {
+    font-size: 2.5rem;
+  }
+}
