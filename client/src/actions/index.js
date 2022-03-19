@@ -52,7 +52,7 @@ export const createTask =
 export const fetchTasks = () => async (dispatch, getState) => {
   try {
     dispatch({ type: 'REQUEST_TASKS' });
-    // これ意味あるの？
+    
     // dispatch({ type: 'ERROR_CLEARED' });
 
     const { userId } = getState().auth;
@@ -148,7 +148,7 @@ export const deleteTask = (id) => async (dispatch, getState) => {
   }
 };
 
-// ここからのアクション必要？なに？
+/
 // export const createError = () => {
 //   history.push(`/formcreate`);
 
