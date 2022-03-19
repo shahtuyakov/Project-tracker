@@ -18,7 +18,7 @@ const Todo = ({ isDarkMode, todos, setTodos, edit }) => {
     setTodos(newTodos);
   };
 
-  // ここもフォームバリデーションできそう。ボタンをおして空欄だったらEnter a task表示
+  
   const handleAdd = (e) => {
     e.preventDefault();
 
